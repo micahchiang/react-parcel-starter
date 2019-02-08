@@ -1,0 +1,35 @@
+{
+  "name": "react-parcel-starter",
+  "version": "0.1.0",
+  "description": "Starter files for creating a react app with parcel",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json,scss} \" ",
+    "format-check": "prettier --list-different \"src/**/*.{js,jsx,css,json,scss} \" ",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Micah Chiang",
+  "license": "ISC",
+  "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^10.0.1",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "^5.12.1",
+        "eslint-config-prettier": "^3.6.0",
+        "eslint-plugin-import": "^2.15.0",
+        "eslint-plugin-jsx-a11y": "^6.2.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "eslint-plugin-react": "^7.12.4",
+        "parcel-bundler": "^1.11.0",
+        "prettier": "^1.16.1"
+  },
+  "dependencies": {
+        "@reach/router": "^1.2.1",
+        "react": "15.x || 16.x || 16.4.0-alpha.0911da3",
+        "react-dom": "15.x || 16.x || 16.4.0-alpha.0911da3"
+  }
+}
